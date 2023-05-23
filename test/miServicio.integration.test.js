@@ -1,6 +1,7 @@
-import { expect } from '@open-wc/testing';
+import { expect, fixture } from '@open-wc/testing';
 import sinon from 'sinon';
 import {MiServicio} from '../src/miServicio.js';
+import { html } from 'lit';
 
 var body = [
   {
